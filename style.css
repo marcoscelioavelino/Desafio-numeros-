@@ -1,0 +1,68 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: 0;
+justify-self: center;
+}
+
+body {
+	background-color: #673999;
+	margin-top: 2%;
+}
+
+h1.titulo {
+	color: #e8b14f;
+}
+h4.titulo {
+	color: #673999;
+}
+
+.divcentral {	
+	max-width: 700px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.divquadrados {
+	cursor: pointer;
+	padding: 2%;
+	font-family: verdana;
+	text-align: center;
+	font-size: 13px;
+	background-color: white;
+	width: 23%;
+	margin-right: 2%;
+	border-radius: 10px;
+
+}
+
+.divquadrados:hover {
+	background-color: #e8b14f;
+	transition: 0.5s;
+
+}
+
+input.numero {
+	border-radius: 6px;
+	border-width: 1px;
+	text-align: center;
+}
+
+section.main{
+	height: 550px;		
+	background-color: lightblue;
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
